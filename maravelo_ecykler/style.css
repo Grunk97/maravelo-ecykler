@@ -1,0 +1,846 @@
+.container-fluid {
+    width: 100%;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*Bruges som en genvej til at skulle fylde mindre elementer ind*/
+body {
+    background-color: white;
+    background-image: url(img/baggrund12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+
+}
+
+/*backgroundsbillede*/
+.baggrund {
+    background-image: url("img/baggrund1.png");
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+/*Navbar logo*/
+.img-fluid {
+    width: 300px;
+    margin-left: 20px;
+}
+
+/*Navbar links*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #FCFCFC;
+    margin-right: 60px;
+    border: black;
+}
+
+/*Bruges til scroll active i javascript*/
+.active {
+    color: #21A22A;
+}
+
+/*Navbar links (hover)*/
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #21A22A;
+}
+
+
+/*Burgermenu logo*/
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("img/menu.png");
+}
+
+/*Navbar baggrunds farve*/
+.bg-dark {
+    background-color: black !important;
+}
+
+/*Navbar border farve*/
+.border-info {
+    border-color: transparent !important;
+}
+
+/*Speciel overskrift på forside*/
+.h1Overskrift {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 350px;
+    color: white;
+    letter-spacing: 25px;
+}
+
+/*Speciel underoverskrift på forside*/
+.h2Overskrift {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+/* highlight ord med grøn*/
+.highlight {
+    color: #21A22A;
+}
+
+/*Social media venstre side*/
+.row .col-1 .fa-facebook {
+    font-size: 30px;
+}
+
+.row .col-1 .fa-instagram {
+    font-size: 30px;
+}
+
+.row .col-1 .fa-twitter {
+    font-size: 30px;
+}
+
+.row .col-1 .fa-youtube {
+    font-size: 30px;
+}
+
+.fa {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Giver social logo en simpel hover effekt*/
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.socialicons {
+    margin-right: 20px;
+}
+
+.sociallogo {
+    margin-left: -30px;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+/* video div */
+
+/*Bruges til køb knapperne*/
+.knap1 {
+    margin-top: 113px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*Giver køb knapperne en skrinken effekt på hover*/
+.knap1:hover {
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+}
+
+/*En køb knap som skulle designes specielt i forhold til de andre*/
+.knap2 {
+    margin-left: -5px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.knap2:hover {
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.video {
+    margin-top: 127px;
+}
+
+/*Brugt mange forskellige tekst størrelser (derfor er der brugt mange CSS linjer i alt)*/
+.crosser {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.tekst {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 70px;
+    color: white;
+}
+
+.tekst6 {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 150px;
+    color: white;
+
+}
+
+.tekst7 {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tekst8 {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.tekst9 {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 20px;
+}
+
+.showroom-overskrift {
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: #21A22A;
+    margin-bottom: 20px;
+}
+
+.showroom-list {
+    list-style-type: none;
+    color: white;
+}
+
+h3 {
+    font-family: europa, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+/*Show room items*/
+.screen {
+    margin-top: 115px;
+}
+
+.lock {
+    margin-top: 115px;
+}
+
+.ride {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.ride1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.crosser1 {
+    font-family: europa, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 90px;
+    color: white;
+    letter-spacing: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.icontext {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.icontext1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.icontext11 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    margin-top: 115px;
+    text-align: center;
+}
+
+.split {
+    margin-top: 25px;
+}
+
+.storebilleder {
+    max-width:100%;
+    height:auto;
+}
+
+/*anmeldelser*/
+.anmeld {
+    margin-top: 150px;
+}
+
+/*Card design*/
+.cardtitel1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    color: #21A22A;
+}
+
+.cardtext1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: #707070;
+}
+
+.card1 {
+    background-color: black !important;
+    box-shadow: 0px 0px 0px grey;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card1:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+    box-shadow: 1px 1px 20px #21A22A;
+}
+
+.cardborder {
+    background-color: #21A22A;
+}
+
+/*Design af leasing aftalerne*/
+.leasing {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 150px;
+    color: white;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.leasing1 {
+    margin-top: 150px;
+}
+
+.leasing2 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.leasing3 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #21A22A;
+    font-size: 30px;
+    text-align: center;
+}
+
+.leasing4 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 150px;
+    color: black;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+/*Design af test kør afsnittet*/
+.testkør {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 140px;
+    color: #21A22A;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.testkør1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.testkør2 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+}
+
+.testkør3 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 150px;
+    color: #21A22A;
+    letter-spacing: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.testkørrow{
+    margin-top: 0px;
+}
+
+/*Design af shoppen og dens cards*/
+.købcard {
+    border: none;
+}
+
+.købcykel {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #21A22A;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.købcykel1 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #21A22A;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.box1 {
+    margin: auto;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.booktekst {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+}
+
+/*Må ikke slettes Uden denne bliver hele baggrunden slette? Har ikke kunne finde et fiks*/
+.knapkøb {
+    margin-left: 200px;
+    margin-top: -55px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.knapkøb:hover{
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.card3 {
+    border: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cardcykel {
+    margin-top: 100px;
+}
+
+/*Design af kontakt formen til JavaScript*/
+.contact-banner {
+    font-family: europa, sans-serif;
+    color: #21A22A;
+    padding: 40px;
+    text-align: center;
+    margin-top: 250px;
+    align-content: center;
+}
+
+.kontakttekst {
+    font-size: 60px;
+    text-align: center;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+.contact-description {
+    margin-bottom: 40px;
+}
+
+.nameinput {
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+    border: 1px solid #707070;
+    font-size: 18px;
+    outline: none;
+    color: #707070;
+
+}
+
+.form-control {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #21A22A;
+    border-radius: 1px;
+
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+textarea {
+    width: auto;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 18px;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: white;
+    border-color: #21A22A;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: black;
+    font-family: europa, sans-serif;
+}
+
+button:hover {
+    background-color: #21A22A;
+    color: white;
+}
+
+form {
+    padding: 40px;
+}
+
+/*Design af vision afsnittet*/
+.visionoverskrift {
+    font-family: europa, sans-serif;
+    color: #707070;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.visiontekst {
+    font-family: europa, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.visionbillede {
+    margin-top: 55px;
+}
+
+/*Disgn af footer*/
+footer {
+    margin-top: 200px;
+}
+
+.footertext {
+    font-family: europa, sans-serif;
+    color: #707070;
+    margin-left: -30px;
+}
+
+.footerbox {
+    margin-left: 50px;
+}
+
+img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+img:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.crew  {
+    max-width:100%;
+    height:auto;
+}
+
+.logo2 {
+    margin-left: -30px;
+}
+
+.linkportfolio {
+    margin-left: -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+}
+
+/*Skærm mindre end 1445px*/
+@media screen and (max-width: 1445px) {
+    .iframe {
+        width: 460px;
+        height: 280px;
+    }
+
+    .knap {
+        width: 250px;
+        height: 100px;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .leasing4 {
+        color: white;
+    }
+
+    .knapkøb {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+/*Skærm mindre end 500px*/
+
+@media screen and (max-width: 500px) {
+    .socials {
+        margin-right: 150px;
+    }
+
+    .logo1 {
+        margin-left: 15px;
+        width: 200px;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .baggrund {
+        background-image: url("img/baggrund2.png");
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .fa-facebook {
+        margin-top: 90px;
+    }
+
+    .fa {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        margin-left: 70px;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .row .col-1 .fa-facebook {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .row .col-1 .fa-instagram {
+        font-size: 20px;
+    }
+
+    .row .col-1 .fa-twitter {
+        font-size: 20px;
+    }
+
+    .row .col-1 .fa-youtube {
+        font-size: 20px;
+    }
+
+    .h1Overskrift {
+        margin-top: 150px;
+        font-size: 20px;
+        letter-spacing: 9px;
+        max-width: 320px;
+    }
+
+    .iframe {
+        width: 360px;
+        height: 180px;
+    }
+
+    .ride {
+        font-size: 20px;
+    }
+
+    .ride1 {
+        font-size: 20px;
+    }
+
+    .leasing {
+        font-size: 20px; 
+    }
+
+    .testkør3 {
+        font-size: 35px ;
+    }
+
+    .crosser1 {
+        font-size: 30px;
+    }
+
+    .h2Overskrift {
+        font-size: 15px;
+        letter-spacing: 8px;
+    }
+
+    .leasing4 {
+        font-size: 20px;
+    }
+
+    .knap1 {
+        margin-top: 20px;
+    }
+
+    .spacemargin {
+        height: 20px;
+    }
+
+    .tekst {
+        margin-top: 10px;
+    }
+}
